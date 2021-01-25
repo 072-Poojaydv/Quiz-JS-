@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+</head>
+<body id ="home" class="home" onload="start()">
+	<div id="divi" class ="divi">
+		<table class="tab" id="tabl">
+			<tr id ="row" class ="row">
+				<th>
+					<h3 id="question" align="center"></h3>
+				</th>
+			</tr>
+			<tr class ="row">
+				<td>
+					<button id="option1" onClick="check(this.id)"></button>
+				</td>
+			</tr>
+			<tr class ="row">
+				<td>
+					<button id="option2" onClick="check(this.id)"></button>
+				</td>
+			</tr>	
+			<tr class ="row">
+				<td>
+					<button id="option3" onClick="check(this.id)"></button>
+				</td>
+			</tr>
+			<tr class ="row">
+				<td>
+					<button id="option4" onClick="check(this.id)"></button>
+				</td>
+			</tr>
+		</table>
+		<table class="tab2">
+			<tr class ="row">
+				<td>
+					<button id="prev" onclick="previous()"><- PREV</button>
+				</td>
+				<td>
+					<button id="next" onclick="next()">NEXT-></button>
+				</td>
+			</tr>
+			<tr class ="row">
+
+			</tr>
+			<tr>
+				<th>POINT FOR THIS::</th>
+				<td id="score" class="score"></td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="a.js"></script>	
+</body>
+</html>
